@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>LPC2124 Testtool: C:/LPC2124_TESTTOOL/Headers/UART.h Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="6451.gif"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">LPC2124 Testtool
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+      <li><a href="globals.html"><span>Datei-Elemente</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_u_a_r_t_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">UART.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_u_a_r_t_8h.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __UART_h__</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __UART_h__</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_typedefs_8h.html">Typedefs.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;String.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;stdint.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html">    7</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span>{</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html#aa2e65e978c22c7f746828db3e2ccfe11">    8</a></span>&#160;  uint16_t <a class="code" href="struct_u_a_r_t___config.html#aa2e65e978c22c7f746828db3e2ccfe11">wordLength</a>;  </div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html#a1146b4de315aed0dc409f22b1bdecf77">    9</a></span>&#160;  uint16_t <a class="code" href="struct_u_a_r_t___config.html#a1146b4de315aed0dc409f22b1bdecf77">baud</a>;        </div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html#a2be28ceb9b3547ec1db1071296d87f7d">   10</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="struct_u_a_r_t___config.html#a2be28ceb9b3547ec1db1071296d87f7d">parityEnable</a>;    </div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html#a2d8a81a7f35e61ecb6ebc11172c419dc">   11</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="struct_u_a_r_t___config.html#a2d8a81a7f35e61ecb6ebc11172c419dc">EvenParity</a>;      </div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_u_a_r_t___config.html#a24efc60f7de396bb99765f56dc3d61c2">   12</a></span>&#160;  uint16_t <a class="code" href="struct_u_a_r_t___config.html#a24efc60f7de396bb99765f56dc3d61c2">Stopbits</a>;    </div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}<a class="code" href="struct_u_a_r_t___config.html">UART_Config</a>;           </div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_u_a_r_t_8h.html#abb3e612bef42f81d387355cb07e99ec8">init_UART</a>();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_u_a_r_t_8h.html#a74af1f767b1a500d7a0f74697222a675">sendCharacter</a>(uint8_t character);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_u_a_r_t_8h.html#adbc78b46082a829a43dbab04b80860e8">sendMessage</a>(uint8_t *message);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;uint16_t <a class="code" href="_u_a_r_t_8h.html#a87a836e0ecef953c5e6dcbf471f87ff6">readCharacter</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_u_a_r_t_8h.html#a795c932b091fdc253a4c1dd747d7427d">readMessage</a>(uint8_t* message, uint16_t MaxLen);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#af9b32425a0da09026f389c4814342022">   40</a></span>&#160;<span class="preprocessor">#define FIFO_ENABLE 0               </span></div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#a86158f082a0b0c714815b4acc432ca78">   41</a></span>&#160;<span class="preprocessor">#define FIFO_RESET_Rx 1             </span></div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#ae672982af4bddd71554c1fe0fe37eb25">   42</a></span>&#160;<span class="preprocessor">#define FIFO_RESET_Tx 2             </span></div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#a820d7891677afb5bfb804527710c7fb5">   43</a></span>&#160;<span class="preprocessor">#define PARITY_ENABLE 3             </span></div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#ab2af6c73c9beacdc6a2f941401103a7a">   44</a></span>&#160;<span class="preprocessor">#define STOPBIT_SELECT 2            </span></div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#a224b2d329f08b1c927d0379cd805e63a">   45</a></span>&#160;<span class="preprocessor">#define DIVISOR_LATCH_ACCESS_BIT 7      </span></div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="_u_a_r_t_8h.html#a4b1e72d7c37edb0eed530b1f7ea1d716">   46</a></span>&#160;<span class="preprocessor">#define TRANSMITTER_HOLDING_REGISTER_EMPTY 5    </span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="_u_a_r_t_8h_html_a74af1f767b1a500d7a0f74697222a675"><div class="ttname"><a href="_u_a_r_t_8h.html#a74af1f767b1a500d7a0f74697222a675">sendCharacter</a></div><div class="ttdeci">bool sendCharacter(uint8_t character)</div><div class="ttdef"><b>Definition:</b> UART.c:72</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html_a1146b4de315aed0dc409f22b1bdecf77"><div class="ttname"><a href="struct_u_a_r_t___config.html#a1146b4de315aed0dc409f22b1bdecf77">UART_Config::baud</a></div><div class="ttdeci">uint16_t baud</div><div class="ttdef"><b>Definition:</b> UART.h:9</div></div>
+<div class="ttc" id="_u_a_r_t_8h_html_abb3e612bef42f81d387355cb07e99ec8"><div class="ttname"><a href="_u_a_r_t_8h.html#abb3e612bef42f81d387355cb07e99ec8">init_UART</a></div><div class="ttdeci">bool init_UART()</div><div class="ttdef"><b>Definition:</b> UART.c:3</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html_a2be28ceb9b3547ec1db1071296d87f7d"><div class="ttname"><a href="struct_u_a_r_t___config.html#a2be28ceb9b3547ec1db1071296d87f7d">UART_Config::parityEnable</a></div><div class="ttdeci">bool parityEnable</div><div class="ttdef"><b>Definition:</b> UART.h:10</div></div>
+<div class="ttc" id="_typedefs_8h_html"><div class="ttname"><a href="_typedefs_8h.html">Typedefs.h</a></div></div>
+<div class="ttc" id="_u_a_r_t_8h_html_a795c932b091fdc253a4c1dd747d7427d"><div class="ttname"><a href="_u_a_r_t_8h.html#a795c932b091fdc253a4c1dd747d7427d">readMessage</a></div><div class="ttdeci">void readMessage(uint8_t *message, uint16_t MaxLen)</div><div class="ttdef"><b>Definition:</b> UART.c:91</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html_a24efc60f7de396bb99765f56dc3d61c2"><div class="ttname"><a href="struct_u_a_r_t___config.html#a24efc60f7de396bb99765f56dc3d61c2">UART_Config::Stopbits</a></div><div class="ttdeci">uint16_t Stopbits</div><div class="ttdef"><b>Definition:</b> UART.h:12</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html_a2d8a81a7f35e61ecb6ebc11172c419dc"><div class="ttname"><a href="struct_u_a_r_t___config.html#a2d8a81a7f35e61ecb6ebc11172c419dc">UART_Config::EvenParity</a></div><div class="ttdeci">bool EvenParity</div><div class="ttdef"><b>Definition:</b> UART.h:11</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html_aa2e65e978c22c7f746828db3e2ccfe11"><div class="ttname"><a href="struct_u_a_r_t___config.html#aa2e65e978c22c7f746828db3e2ccfe11">UART_Config::wordLength</a></div><div class="ttdeci">uint16_t wordLength</div><div class="ttdef"><b>Definition:</b> UART.h:8</div></div>
+<div class="ttc" id="_u_a_r_t_8h_html_adbc78b46082a829a43dbab04b80860e8"><div class="ttname"><a href="_u_a_r_t_8h.html#adbc78b46082a829a43dbab04b80860e8">sendMessage</a></div><div class="ttdeci">bool sendMessage(uint8_t *message)</div><div class="ttdef"><b>Definition:</b> UART.c:78</div></div>
+<div class="ttc" id="_u_a_r_t_8h_html_a87a836e0ecef953c5e6dcbf471f87ff6"><div class="ttname"><a href="_u_a_r_t_8h.html#a87a836e0ecef953c5e6dcbf471f87ff6">readCharacter</a></div><div class="ttdeci">uint16_t readCharacter()</div><div class="ttdef"><b>Definition:</b> UART.c:86</div></div>
+<div class="ttc" id="struct_u_a_r_t___config_html"><div class="ttname"><a href="struct_u_a_r_t___config.html">UART_Config</a></div><div class="ttdef"><b>Definition:</b> UART.h:7</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_5890de6b5ef1da0d0cbabe03f8b44886.html">LPC2124_TESTTOOL</a></li><li class="navelem"><a class="el" href="dir_ebc3c660723e4b64eaa8bd1c4710803f.html">Headers</a></li><li class="navelem"><a class="el" href="_u_a_r_t_8h.html">UART.h</a></li>
+    <li class="footer">Erzeugt von
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

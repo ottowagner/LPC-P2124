@@ -1,0 +1,26 @@
+var _a_d_c_8h =
+[
+    [ "ADC_ENABLE", "_a_d_c_8h.html#af0f7ac4025d1623cda58f7656fcffade", null ],
+    [ "AIN0_22", "_a_d_c_8h.html#aa4c98eb8fcccd1bd56bcab08f763972e", null ],
+    [ "AIN0_23", "_a_d_c_8h.html#adb52cc1ba580e5564745813a16f36a2a", null ],
+    [ "AIN0_PIN", "_a_d_c_8h.html#a19c8509270fdcbb375c438f3691eaf85", null ],
+    [ "AIN0_SEL", "_a_d_c_8h.html#ac2d9f365f2b39d39c22c8b0d64db6279", null ],
+    [ "AIN1_24", "_a_d_c_8h.html#a17ed91e3ec3101c29873d7e3cbf45d8f", null ],
+    [ "AIN1_25", "_a_d_c_8h.html#a0f19e2f95882ed40adc32e7738f03abf", null ],
+    [ "AIN1_PIN", "_a_d_c_8h.html#a890d37dc974346fac0fcf4fa852e523f", null ],
+    [ "AIN1_SEL", "_a_d_c_8h.html#aeeebb0983ea0b17206dc44a3769d92d6", null ],
+    [ "AIN2_26", "_a_d_c_8h.html#a7d39353c7d1ca5ddc21fd649c644b1cd", null ],
+    [ "AIN2_27", "_a_d_c_8h.html#a6dfaebc79c388c441e6fc76440e49e20", null ],
+    [ "AIN2_PIN", "_a_d_c_8h.html#aa4ad482a072e8176811f4441e8134254", null ],
+    [ "AIN2_SEL", "_a_d_c_8h.html#a2c48d15edae031f79e57f2830639ec98", null ],
+    [ "AIN3_28", "_a_d_c_8h.html#a2b03c9df5d99ce4d921881e554668842", null ],
+    [ "AIN3_29", "_a_d_c_8h.html#a2924809f56bcf3d0f1b79f50c9e206eb", null ],
+    [ "AIN3_PIN", "_a_d_c_8h.html#a7b121f43e5a4edb6603bb9ff43db5b61", null ],
+    [ "AIN3_SEL", "_a_d_c_8h.html#a1c1e34bb9766cddda13c08681cc2d5ae", null ],
+    [ "BURST_MODE", "_a_d_c_8h.html#aec50d58513f596be4b3a0aec3cc13985", null ],
+    [ "CLKDIV_10", "_a_d_c_8h.html#acc1029c76a4620ec9d93cf87863cd795", null ],
+    [ "CLKDIV_9", "_a_d_c_8h.html#a6207758941c48f84a19ac4baeb61a889", null ],
+    [ "init_ADC", "_a_d_c_8h.html#ab35fb0e0c467f9c0178865807438e449", null ],
+    [ "measureACVoltage", "_a_d_c_8h.html#adf80f83698d6a12e0cc2c5e3ea25d3bd", null ],
+    [ "measureDCVoltage", "_a_d_c_8h.html#ad23f894992a13dd1e3f60325156a7731", null ]
+];
